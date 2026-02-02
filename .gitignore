@@ -1,0 +1,47 @@
+# Dependencies                                                                                             
+  node_modules                                                                                               
+                                                                                                             
+  # Build outputs                                                                                            
+  dist                                                                                                       
+  build                                                                                                      
+  .next                                                                                                      
+  out                                                                                                        
+  *.tsbuildinfo                                                                                              
+                                                                                                             
+  # Environment files                                                                                        
+  .env                                                                                                       
+  .env.local                                                                                                 
+  .env.*.local                                                                                               
+                                                                                                             
+  # IDE & Editor                                                                                             
+  .vscode
+  .cursor                                                                                                    
+  .idea                                                                                                      
+  *.swp                                                                                                      
+  *.swo                                                                                                      
+  *~                                                                                                         
+  .eslintcache                                                                                               
+  .repl_history                                                                                              
+                                                                                                             
+  # OS                                                                                                       
+  .DS_Store                                                                                                  
+  Thumbs.db                                                                                                  
+                                                                                                             
+  # Logs                                                                                                     
+  *.log                                                                                                      
+  npm-debug.log*                                                                                             
+  pnpm-debug.log*                                                                                            
+  yarn-debug.log*                                                                                            
+                                                                                                             
+  # Testing                                                                                                  
+  coverage                                                                                                   
+                                                                                                             
+  # Misc                                                                                                     
+  .turbo                                                                                                     
+  .cache                                                                                                     
+  *.orig                                                                                                     
+                                                                                                             
+  # AI & Design (personal)                                                                                   
+  .claude                                                                                                    
+  .design                                                                                                    
+  .workflow-confirmations.json
