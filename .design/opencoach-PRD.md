@@ -4,7 +4,8 @@ The first open-source forward-agent to support personal health.
 
 ## Principal
 
-- GOAL: Acquired by OpenAI. Intergrate into ChatGPT Health to .
+- GOAL: Build a sustainable health tech startup that helps people live healthier lives through AI-powered personalized health coaching.
+- Vision: Make professional health coaching accessible to everyone through AI agents.
 - What is [[forward-agent-PRD]]: 
 	- Monster for eating data and tokens. 
 	- OpenClawd/ClawdBot/Ralph. 24/7. Autonomous. Proactive. Lifelong. Full-self. Relentless. 
