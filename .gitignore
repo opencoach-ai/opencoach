@@ -44,4 +44,8 @@
   # AI & Design (personal)                                                                                   
   .claude                                                                                                    
   .design                                                                                                    
-  .workflow-confirmations.json
+  .workflow-confirmations.jsonapps/gateway/.env
+  apps/gateway/.env                                                
+  apps/gateway/dist/                                               
+  apps/gateway/node_modules/                                       
+  apps/gateway/tsconfig.tsbuildinfo
