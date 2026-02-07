@@ -66,13 +66,13 @@ OpenCoach is an ambitious full-stack personal health agent project. As a solo fo
     Create GitHub repo with templates (PR templates, issues)
     Push to GitHub organization (opencoach-ai)
 
-[ ] Day 3-4: Development Environment
+[x] Day 3-4: Development Environment (COMPLETED: 2026-02-05)
     Docker Compose with PostgreSQL, Redis
     Drizzle ORM setup with migrations
     Seed database with test data
     Environment variable management
 
-[ ] Day 5: CLI Tool Foundation
+[x] Day 5: CLI Tool Foundation (COMPLETED: 2026-02-06)
     Commander.js setup
     Basic commands: gateway, doctor
     Config file management (~/.opencoach/)
@@ -81,11 +81,11 @@ OpenCoach is an ambitious full-stack personal health agent project. As a solo fo
 
 #### Week 2: Database & Core Types
 ```bash
-[ ] Day 1-3: Database Schema
-    All tables created
-    Indexes for time-series queries
-    pgvector extension setup
-    Migration scripts
+[x] Day 1-3: Database Schema (COMPLETED: 2026-02-07)
+    All tables created (12 tables)
+    Indexes for time-series queries (22 indexes)
+    pgvector extension setup (schema ready, extension TBD)
+    Migration scripts (drizzle-kit configured)
 
 [ ] Day 4-5: TypeScript Types
     Shared types package

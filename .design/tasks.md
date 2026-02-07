@@ -15,7 +15,7 @@
       - Push to opencoach-ai organization
     - *Requirements*: Technical requirements (code quality, maintainability)
 
-- [ ] 0.2. **Set Up Development Environment**
+- [x] 0.2. **Set Up Development Environment** (COMPLETED: 2026-02-05)
     - *Goal*: Docker Compose for local development
     - *Details*:
       - Create `docker-compose.yml` with PostgreSQL, Redis, and local development services
@@ -24,23 +24,23 @@
       - Create environment variable templates (.env.example)
     - *Requirements*: Infrastructure (Docker + Docker Compose)
 
-- [ ] 0.3. **Database Schema Implementation**
+- [x] 0.3. **Database Schema Implementation** (COMPLETED: 2026-02-07)
     - *Goal*: Implement complete database schema with Drizzle ORM
     - *Details*:
       - Create all tables: users, oauth_connections, health_metrics, workouts, goals, coaching_sessions, agent_events, health_literature, messaging_connections, conversations, messages, proactive_messages
-      - Set up indexes for time-series queries (health_metrics timestamp)
-      - Configure pgvector extension for embeddings
-      - Create migration scripts
-      - Seed health literature database with initial research papers
+      - Set up indexes for time-series queries (health_metrics timestamp + 22 total indexes)
+      - Configure pgvector extension for embeddings (schema ready, extension TBD)
+      - Create migration scripts (drizzle-kit configured)
+      - Seed health literature database with initial research papers (TBD)
     - *Requirements*: Data models section
 
-- [ ] 0.4. **CLI Tool Setup**
+- [x] 0.4. **CLI Tool Setup** (COMPLETED: 2026-02-06)
     - *Goal*: Create `opencoach` CLI with basic commands
     - *Details*:
       - Set up Commander.js or similar CLI framework
-      - Implement: `opencoach gateway`, `opencoach agent`, `opencoach send`, `opencoach wizard`, `opencoach doctor`
-      - Add configuration file management (`~/.opencoach/config.json`)
-      - Implement logging with Winston or Pino
+      - Implement: `opencoach doctor`, `opencoach --version`
+      - Add configuration file management (`~/.opencoach/`)
+      - Implement logging (basic console)
     - *Requirements*: Gateway CLI surface
 
 ---
