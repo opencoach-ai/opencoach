@@ -43,6 +43,15 @@
       - Implement logging (basic console)
     - *Requirements*: Gateway CLI surface
 
+- [x] 0.5. **Shared Types Package** (COMPLETED: 2026-02-08)
+    - *Goal*: Create @opencoach/types for type consistency across monorepo
+    - *Details*:
+      - Core domain types (User, Goal, HealthMetric, Session, Message)
+      - Agent tool interfaces (DS, DE, HC agent contracts)
+      - Channel adapter interfaces (Telegram, WhatsApp, Discord, Web)
+      - Export all types from @opencoach/types
+    - *Requirements*: Type safety across packages
+
 ---
 
 ### Phase 1: Gateway & WebSocket Control Plane (Core Infrastructure)
