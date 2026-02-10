@@ -106,11 +106,15 @@ OpenCoach is an ambitious full-stack personal health agent project. As a solo fo
 
 #### Week 3: WebSocket Server
 ```bash
-[ ] Day 1-3: WebSocket Implementation
+[x] Day 1-3: WebSocket Implementation (COMPLETED: 2026-02-10)
     ws server at ws://127.0.0.1:18789
     RPC protocol (request/response)
     Connection authentication
     Reconnection logic
+    Heartbeat/ping-pong (30s interval)
+    Message handler system (ping, echo methods)
+    CLI integration (opencoach gateway command)
+    Test client (all tests passing ✅)
 
 [ ] Day 4-5: Session Management
     Session model (main, groups)
@@ -145,9 +149,9 @@ OpenCoach is an ambitious full-stack personal health agent project. As a solo fo
     API reference
 ```
 
-**Deliverable**: Running gateway with CLI, can send/receive messages
+**Deliverable**: Running gateway with CLI, can send/receive messages ✅ COMPLETE
 
-**Checkpoint**: Can you connect via WebSocket and exchange messages? Yes → Proceed
+**Checkpoint**: Can you connect via WebSocket and exchange messages? Yes → ✅ PASSED (2026-02-10)
 
 ---
 
